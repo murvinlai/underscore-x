@@ -18,7 +18,9 @@
     },
     "keywords": [
         "underscore",
-        "extension"
+        "extension",
+        "underscore-x",
+        "underscore extension"
     ],
     "repository": "git://github.com/murvinlai/underscore-x.git",
     "license": "MIT",
