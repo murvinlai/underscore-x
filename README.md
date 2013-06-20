@@ -33,7 +33,7 @@ The purpose of this module is to cover some complicated cornerstone cases on som
 
 ## Objects functions
 
-    extend_d(target, sources... )
+**extend_x(target, sources... )**
 
  Merge the entire tree of source objects to the target object with the following rules:
 - If multiple sources, e.g. _.extend_x(target, source1, source2...), merging will begin from left to right, i.e. source1 will merge into target first, then source2 will merge into the output (which just merged with source1).  This order is important as you can see later on.
