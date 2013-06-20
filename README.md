@@ -40,12 +40,12 @@ The purpose of this module is to cover some complicated cornerstone cases on som
 - Every single node (or key) of the source hierarchy will be visited and merge to the target.  If target doesn't have that key exist, then the entire tree (or subtree) will be copied over.
 - If both key & value exist in target and source, then perform the followings in order:
 
- 1. If both values of the keys are the type of "function", then copy and overwrite the function of source to target.
- 2. If both values of the keys are the type of "array", then append the array of source to the end of the array of target.
- 3. If both values of the keys are the type of "object", then go through the sub-tree of source.
- 4. If the value of the target key is undefined, but the value of the source key has something, then copy the value of the source to target of the same key
- 5. If both values of the keys are the same type (e.g. number, string), then copy the value of the source key to target key.
- 6. If both values are of different type, then do not do anything.
+    1. If both values of the keys are the type of "function", then copy and overwrite the function of source to target.  
+    2. If both values of the keys are the type of "array", then append the array of source to the end of the array of target.
+    3. If both values of the keys are the type of "object", then go through the sub-tree of source.
+    4. If the value of the target key is undefined, but the value of the source key has something, then copy the value of the source to target of the same key
+    5. If both values of the keys are the same type (e.g. number, string), then copy the value of the source key to target key.
+    6. If both values are of different type, then do not do anything.
 
 
 
